@@ -176,13 +176,13 @@
         render: function() {
 
             var routeName = this.getRoutes()[this.getRoutes().length-1].name.toLowerCase();
-
             return (
                 <div>
                     <TodoHeader />
                     <ReactRouter.RouteHandler list={this.state.list} showing={routeName} />
                     <TodoFooter list={this.state.list} />
                 </div>
+				
             );
         }
     });

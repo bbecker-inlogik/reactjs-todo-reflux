@@ -10,6 +10,7 @@
         "toggleAllItems", // called by button in TodoMain (even though you'd think TodoHeader)
         "addItem",        // called by hitting enter in field in TodoHeader
         "removeItem",     // called by button in TodoItem
+        "itemsRemoved",   // called when items removed
         "clearCompleted", // called by button in TodoFooter
         "editItem"        // called by finishing edit in TodoItem
     ]);
