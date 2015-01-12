@@ -5,6 +5,14 @@
     margin-top: 50px;
 }
 
+#addmany textarea {
+	width: 450px;
+	height: 120px;
+	border: 2px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+
 #addmany > a {
     color: rgb(61, 181, 144);
 }
